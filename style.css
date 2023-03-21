@@ -1,0 +1,135 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #1A1B30, #4C1E4F);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f1c40f;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #212121;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navigation li {
+    margin: 0 1rem;
+  }
+  
+  .navigation li a {
+    padding: 0.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .navigation li a.active,
+  .navigation li a:hover {
+    background-color: #f1c40f;
+    border-radius: 0.25rem;
+  }
+  
+  /* Crypto selection styles */
+  .crypto-selection {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #8e44ad, #2980b9);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.25rem;
+  }
+  
+  .crypto-selection a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .crypto-selection a.active,
+  .crypto-selection a:hover {
+    background-color: #f1c40f;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 2rem;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #fff; /* added this line */
+    padding: 0.5rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2rem;
+    border: 2px solid #fff;
+    border-radius: 0.25rem;
+  }
+  
+  thead {
+    background-color: #212121;
+  }
+  
+  thead th {
+    font-weight: bold;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #0000007a;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #2222227a;
+  }
+  
+  tbody td {
+    padding: 1rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
