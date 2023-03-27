@@ -136,3 +136,99 @@
     padding: 1rem;
     text-align: center;
   }
+
+
+
+
+
+
+
+
+
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Style the main section */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the section headings */
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #1E90FF;
+}
+
+/* Style the paragraphs */
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the ordered list */
+section ol {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the list items */
+section li {
+  margin-bottom: 10px;
+}
+
+/* Style the app sections */
+section ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+section ul li {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the app headings */
+section ul li h3 {
+  font-size: 1.8rem;
+  color: #1E90FF;
+  margin-bottom: 10px;
+}
+
+/* Style the app paragraphs */
+section ul li p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style the app download links */
+section ul li a {
+  display: inline-block;
+  background-color: #1E90FF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+
+/* Style the footer paragraphs */
+footer p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
