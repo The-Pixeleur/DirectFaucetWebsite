@@ -6,7 +6,7 @@
   }
   
   body {
-    background: linear-gradient(to bottom right, #10012c, #602964);
+    background: linear-gradient(to bottom right, #100031, #6a0072);
     color: #fff;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -78,7 +78,7 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 2rem;
-    border-bottom: 2px solid #fff; /* added this line */
+    border-bottom: 2px solid #fff; 
     padding: 0.5rem;
   }
   
@@ -291,5 +291,5 @@ nav ul{overflow:hidden; overflow-y:scroll;}
   transition-duration: .25s;
 }
 .menu__item:hover {
-  background-color: #9e9e9e;
+  background-color: #150016;
 }
