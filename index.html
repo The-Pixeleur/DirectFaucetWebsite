@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-	<title>DFC - Direct crypto faucet</title>
-	<link rel="stylesheet" type="text/css" href="s.css">
-	<link     href="https://media.discordapp.net/attachments/741728178938314874/1081977291179053087/1678033862276.png?width=634&height=634"
-    rel="icon">
-	<meta name="description" content="Direct faucet crypto website list, just past your address and receive some crypto !">
-    <meta name="keywords" content="crypto, cryptocurrencies, currencies, cryptomonnaie, monnaie, money, faucet, faucet crypto, crypto faucet, robinet, robinet crypto, sol, solana, ban, banano, nano, matic, polygon, algo, algorand, direct faucet, direct" />
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DCF - Home</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+	<script>
+		let logos = ["./IMG/CryptoLogo/ethereum.webp", "./IMG/CryptoLogo/bitcoin.webp", "./IMG/CryptoLogo/litecion.webp", "./IMG/CryptoLogo/dogecoin.webp", "./IMG/CryptoLogo/avax.webp", "./IMG/CryptoLogo/matic.webp", "./IMG/CryptoLogo/Bnb.webp", "./IMG/ServerDiscord/ibr.webp", "./IMG/ServerDiscord/BTCprincess.webp"];
+		let cryptos = ["Ethereum", "Bitcoin", "Litecoin", "Dogecoin", "Avax", "Matic", "BNB", "Iberian", "Princess token"];
+		let index = 0;
+setInterval(function() {
+			document.getElementById("crypto-img").src = logos[index];
+			document.getElementById("crypto-name").innerHTML = cryptos[index];
+			index = (index + 1) % logos.length;
+		}, 2000);
+	</script>
 </head>
 <body>
-	<header >
-		<h1>DCF</h1>
+    <header >
+		<h1>Direct Crypto Faucet</h1>
 		<nav>
 		<div class="hamburger-menu">
 			<input id="menu__toggle" type="checkbox" />
@@ -21,446 +25,60 @@
 			</label>
 			<ul class="menu__box">
 				<li><a class="menu__item" href="index.html">Home</a></li>
+				<li><a class="menu__item" href="faucet.html">Faucet list</a></li>
 				<li><a class="menu__item" href="app.html">play to earn</a></li>
-				<li><a class="menu__item" href="inside-the-hallway.html">Inside the hallway</a></li>
+        		<li><a class="menu__item" href="WorkingOn.html">Inside the hallway</a></li>
+        		<li><a class="menu__item" href="discord.html">Discord Server</a></li>
 				<hr id="hr_menu" width="80%" style="margin: auto;">
-				<li><a class="menu__item" href="#banano">Banano</a></li>
-				<li><a class="menu__item" href="#nano">Nano</a></li>
-				<li><a class="menu__item" href="#matic">Matic</a></li>
-				<li><a class="menu__item" href="#solana">Solana</a></li>
-				<li><a class="menu__item" href="#Vite">Vite</a></li>
-				<li><a class="menu__item" href="#Vitamin">Vitamin</a></li>
-				<li><a class="menu__item" href="#Vinu">Vinu</a></li>
-				<li><a class="menu__item" href="#Manangos">Manangos</a></li>
-				<li><a class="menu__item" href="#ViCat">ViCat</a></li>
-				<li><a class="menu__item" href="#MayoCoin">MayoToken</a></li>
-				<li><a class="menu__item" href="#ergo">Ergo</a></li>
-				<li><a class="menu__item" href="#algorand">Algo</a></li>
-				<li><a class="menu__item" href="#paw">Paw</a></li>
-				<li><a class="menu__item" href="#dgb">Digibyte</a></li>
 			</ul>
 		</div>
 		</nav>
 	</header>
-
-	<main>
-		<h2>DFC <br>
-			<a href="https://discord.gg/AEr5zQHnty">Join our discord for more drops !</a>
-		</h2>
-		<section id="banano">
-			<h2><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"> Banano</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="https://ouo.io/omq3u8">earns banano</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.06 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/G2A6VV">prussia banano</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.02 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/iHB48P">gorillanation</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.09 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/N6WBTK">only-bans</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.06 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/xVv0EF">getban.csquared</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.012 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/eNvL0c">bananoplanet</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>2 hours</td>
-						<td>0.016 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/52dJJf">getbanano</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.019 BAN</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/DXanLrw">nanswap</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>3 times / week</td>
-						<td>0.016 BAN</td>
-					</tr>
-					<tr>
-						<td><a href="https://ouo.io/UHN0JTc">TryBanano</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>2 hours</td>
-						<td>0.04 BAN</td>
-					</tr>
-					<tr>
-						<td><a href="https://ouo.io/SWKIwL">ICanHazeNano</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>3 times / 24 hours</td>
-						<td>0.02 BAN</td>
-					</tr>
-					<tr>
-						<td><a href="https://ouo.io/6oJ1zH">Perry banano</a></td>
-						<td><img src="./IMG/CryptoLogo/banano.webp" alt="banano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.01 BAN</td>
-					</tr>
-				</tbody>
-			</table>
-		</section>
-
-		<section id="nano">
-			<h2> <img src="./IMG/CryptoLogo/Nano.webp" alt="nano" width="32" height="32"> Nano </h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="https://ouo.io/CzCAEa">freenano</a></td>
-						<td><img src="./IMG/CryptoLogo/Nano.webp" alt="nano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.000012 NANO</td>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/gAM8jW5">getnano</a></td>
-						<td><img src="./IMG/CryptoLogo/Nano.webp" alt="nano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.0003 NANO</td>
-					</tr>
-					</tr>
-                    <tr>
-						<td><a href="https://ouo.io/6DnrzU">NanoDrop</a></td>
-						<td><img src="./IMG/CryptoLogo/Nano.webp" alt="nano" width="32" height="32"></td>
-						<td>only once</td>
-						<td>0.0001 NANO</td>
-					</tr>
-					<tr>
-						<td><a href="https://ouo.io/SWKIwL">ICanHazeNano</a></td>
-						<td><img src="./IMG/CryptoLogo/Nano.webp" alt="nano" width="32" height="32"></td>
-						<td>3 times / 24 hours</td>
-						<td>0.000042 NANO</td>
-					</tr>
-					<tr>
-						<td><a href="https://ouo.io/77sc9R">NanoQueen</a></td>
-						<td><img src="./IMG/CryptoLogo/Nano.webp" alt="nano" width="32" height="32"></td>
-						<td>24 hours</td>
-						<td>0.0005 NANO</td>
-					</tr>
-				</tbody>
-			</table>
-		</section>
-
-		<section id="matic">
-			<h2> <img src="./IMG/CryptoLogo/matic.webp" alt="matic" width="32" height="32"> Matic</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/oz1h35">TheAvatar (reddit)</a></td>
-						<td><img src="./IMG/CryptoLogo/matic.webp" alt="matic" width="32" height="32"></td>
-                        <td>2 weeks</td>
-                        <td>0.02 MATIC</td>
-                    </tr>
-					<tr>
-                        <td><a href="https://ouo.io/sIwmjm">Matic Globally</a></td>
-						<td><img src="./IMG/CryptoLogo/matic.webp" alt="matic" width="32" height="32"></td>
-                        <td>24 hours</td>
-                        <td>0.0007 MATIC</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section id="solana">
-			<h2> <img src="./IMG/CryptoLogo/solana.webp" alt="Solana" width="32" height="32"> Solana</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-					<tr>
-                        <td><a href="https://ouo.io/bB1rdl">togatech</a></td>
-						<td><img src="./IMG/CryptoLogo/solana.webp" alt="Solana" width="32" height="32"></td>
-                        <td>24 hours</td>
-                        <td>0.00001 SOL</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-
-        <section id="Vite">
-			<h2> <img src="./IMG/CryptoLogo/Vite.png" alt="Vite" width="32" height="32"> Viterium</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/clsNkPq">ViteToken</a></td>
-						<td><img src="./IMG/CryptoLogo/Vite.png" alt="Vite" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>1.33 VT</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-		
-        <section id="Vitamin">
-			<h2> <img src="./IMG/CryptoLogo/Vitamin.png" alt="Vitamin" width="32" height="32"> Vitamin</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/g9doP7">Vitamin</a></td>
-						<td><img src="./IMG/CryptoLogo/Vite.png" alt="Vite" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>2 VitaminCoin</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-		<section id="Vinu">
-			<h2> <img src="./IMG/CryptoLogo/Vinu.png" alt="Vinu" width="32" height="32"> Vinu</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/XNEK8x">GetVinu</a></td>
-						<td><img src="./IMG/CryptoLogo/Vite.png" alt="Vite" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>20 000 Vinu</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-
-		<section id="Manangos">
-			<h2> <img src="./IMG/CryptoLogo/manangos.webp" alt="manangos" width="32" height="32"> Manangos</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/Gmo2Hz">GetMango</a></td>
-						<td><img src="./IMG/CryptoLogo/Vite.png" alt="Vite" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>10 Manangos</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-		<section id="ViCat">
-			<h2> <img src="./IMG/CryptoLogo/ViCat.png" alt="vicat" width="32" height="32"> ViCat</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/kxR2bn">ViCat.Tech</a></td>
-						<td><img src="./IMG/CryptoLogo/Vite.png" alt="Vite" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>777 ViCat</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-		<section id="MayoCoin">
-			<h2> <img src="./IMG/CryptoLogo/Mayo.png" alt="mayocoin" width="32" height="32"> MayoCoin</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/F5ai2u">mayo</a></td>
-						<td><img src="./IMG/CryptoLogo/stellar.webp" alt="stellar" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>42 Mayo</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-		<section id="ergo">
-			<h2> <img src="./IMG/CryptoLogo/ergo.webp" alt="ergo" width="32" height="32"> Ergo</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/qMd9gf">Ergo org</a></td>
-						<td><img src="./IMG/CryptoLogo/ergo.webp" alt="ergo" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>0.000106 ERG</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-		
-		
-		<section id="algorand">
-			<h2> <img src="./IMG/CryptoLogo/algo.png" alt="algo" width="32" height="32"> Algorand</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/Rm48GHU">AlgoDrops</a></td>
-						<td><img src="./IMG/CryptoLogo/algo.png" alt="algo" width="32" height="32"></td>
-                        <td>48 Hours</td>
-                        <td>0.001 Algo</td>
-                    </tr>
-					<tr>
-                        <td><a href="https://ouo.io/2SXclt">TheAlgo</a></td>
-						<td><img src="./IMG/CryptoLogo/algo.png" alt="algo" width="32" height="32"></td>
-                        <td>1 week (receive every sunday)</td>
-                        <td>0.000121 Algo</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-		<section id="paw">
-			<h2> <img src="./IMG/CryptoLogo/paw.png" alt="paw" width="32" height="32"> Paw</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/yZnsx5">Paw.digital</a></td>
-						<td><img src="./IMG/CryptoLogo/paw.png" alt="paw" width="32" height="32"></td>
-                        <td>24 Hours</td>
-                        <td>0.000001 ADIA</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-		<section id="dgb">
-			<h2> <img src="./IMG/CryptoLogo/digibyte.webp" alt="digibyte" width="32" height="32"> Digibyte</h2>
-			<table>
-				<thead>
-					<tr>
-						<th>Site Name</th>
-						<th>Blockchain</th>
-						<th>Time Between Withdrawals</th>
-						<th>Average Payout</th>
-					</tr>
-				</thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://ouo.io/px3fbT">digibyte org</a></td>
-						<td><img src="./IMG/CryptoLogo/digibyte.webp" alt="digibyte" width="32" height="32"></td>
-                        <td>6 Hours</td>
-                        <td>0.01 DGB</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-        
-    </main>
-    
+	<div class="containermain">
+		<div class="project">
+			<p><h1>Direct Crypto Faucet</h1><br>Home of the free crypto land, list of all direct faucet to your own wallet, Game on mobile to earn more and list of discord server for your Tip.cc Bot wallet ! <br><br>We are also working on a blockchain game named "Inside the hallway".</p>
+            <div class="cryptomain">
+				<img id="crypto-img" src="./IMG/CryptoLogo/ethereum.webp">
+				<h2 id="crypto-name">Ethereum</h2>
+			</div>
+        </div>
+		<div class="image">
+			<img src="./IMG/Other/Mainimg.jpg">
+		</div>
+    </div><br><br><br>
+		<div class="cards">
+			<a href="WorkingOn.html">
+				<div class="card" style="background-color: black; background-size: cover; background-repeat: no-repeat;">
+					<h3>Inside the Hallway</h3>
+				</div>
+			</a>
+			<a href="faucet.html">
+                <div class="card" style="background-image: url('./IMG/Other/cryptoFaucet.jpg'); background-size: cover; background-repeat: no-repeat;">
+					<h3>Crypto Faucet</h3>
+				</div>
+			</a>
+			<a href="app.html">
+                <div class="card" style="background-image: url('./IMG/Other/game.jpg'); background-size: cover; background-repeat: no-repeat;">
+					<h3>Crypto App</h3>
+				</div>
+			</a>
+			<a href="discord.html">
+                <div class="card" style="background-image: url('./IMG/Other/discord.jpg'); background-size: cover; background-repeat: no-repeat;">
+					<h3>Crypto Discord Server</h3>
+				</div>
+			</a>
+		</div>
+    <div class="containermain">
+		<div class="additional-section"><br>
+			<h2>RoadMap</h2>
+			<p>2023 :<br><br>-Website Creation<br>-Faucet list<br>-Discord server creation<br>-Play-to-earn<br>-Server discord to earn<br></p>
+		</div>
+	</div>
     <footer>
         <p>&copy; 2023 D.C.F. | Paraxe Paradise</p>
-		<a href="https://discord.gg/AEr5zQHnty">Join our discord for more Drops !</a>
-		<br><br>
-		<p>If you want to tip me here my address : <br>0x10e6cd9E2272BaC1b40746F99d9F24daA8f98457</p> 
+        <a href="https://discord.gg/AEr5zQHnty">Join our discord for more Drops !</a>
+        <br><br>
+        <p>If you want to tip me here my address : <br>0x10e6cd9E2272BaC1b40746F99d9F24daA8f98457</p> 
     </footer>
 </body>
 </html>
