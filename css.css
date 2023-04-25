@@ -48,7 +48,9 @@
     color: #fff;
   }
   
-  
+  #wallet_address{
+    font-size: 18px;
+  }
   /* Crypto selection styles */
   .crypto-selection {
     display: flex;
@@ -379,7 +381,104 @@ nav ul{overflow:hidden; overflow-y:scroll;}
   transition: 1s;
 }
 
+.imagemain {
+  flex: 1 1 30%;
+}
+
+
+
+button {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 15px;
+  border: 3px solid #000000;
+  padding: 5px 20px;
+  margin-left: 10px;
+  cursor: pointer
+}
+button:hover {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+
+.containermain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-image: url('background.jpg');
+  background-size: cover;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.imageindex{
+  display: none;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 40%;
+  margin-right: 20px;
+}
+
+.project h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cryptomain {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.cryptomain img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+.cards {
+  display: flex;
+  align-items:end;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-right: 10px;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.card img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.imagemain img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
 @media (max-width: 770px) {
+  #wallet_address{
+    font-size: 12px;
+  }
   .topinfo{
     padding-left: 0px;
     flex-direction: column;
@@ -430,90 +529,24 @@ nav ul{overflow:hidden; overflow-y:scroll;}
     top: 0px; 
     margin-right: 0px;
   }
+  .imagemain img {
+    display: none;
+  }
+  .cards {
+    display:grid;
+    align-items:end;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  tbody tr td:nth-child(2) { display : none}
+  thead tr th:nth-child(2) { display : none}
+  tbody tr td:nth-child(4) { display : none}
+  thead tr th:nth-child(4) { display : none}
+
+
+
+
 
 }
-
-button {
-  color: #000000;
-  background-color: #ffffff;
-  font-size: 15px;
-  border: 3px solid #000000;
-  padding: 5px 20px;
-  margin-left: 10px;
-  cursor: pointer
-}
-button:hover {
-  color: #ffffff;
-  background-color: #000000;
-}
-
-
-.containermain {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-image: url('background.jpg');
-  background-size: cover;
-  color: white;
-  font-family: Arial, sans-serif;
-}
-
-.project {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 40%;
-  margin-right: 20px;
-}
-
-.project h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.cryptomain {
-  display: flex;
-  align-items: center;
-  margin-bottom: 14px;
-}
-
-.cryptomain img {
-  height: 40px;
-  margin-right: 10px;
-}
-
-.image {
-  flex: 1 1 30%;
-}
-
-.image img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-}
-
-.cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.card {
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
-  text-align: center;
-  margin-right: 10px;
-}
-
-.card img {
-  height: 50px;
-  margin-bottom: 10px;
-}
-
