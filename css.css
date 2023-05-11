@@ -116,14 +116,7 @@
     padding: 1rem;
   }
   
-  /* Footer styles */
-  footer {
-    background-color: #212121;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    margin-top: auto;
-  }
+
 
 
 
@@ -219,8 +212,112 @@ footer p {
   font-size: 1.2rem;
   line-height: 1.5;
 }
+  /* Footer styles */
+  footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+  }
 
-
+  .site-footer {
+    background-color: #212529;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .site-footer h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .site-footer p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+  
+  .site-footer a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .site-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+    list-style: none;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #333;
+    transition: 0.3s;
+  }
+  .site-footer .border-top {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+  }
+  
+  .site-footer .border-top p {
+    margin-bottom: 0;
+  }
+  
+  .site-footer .text-muted {
+    color: #fff;
+  }
+  .site-footer .social-icons img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .site-footer .social-icons li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .site-footer .social-icons li:last-child {
+    margin-right: 0;
+  }
+  @media (max-width: 767.98px) {
+    .site-footer .border-top {
+      margin-top: 40px;
+    }
+    
+    .site-footer h3 {
+      margin-top: 30px;
+    }
+    
+    .site-footer .social-icons {
+      margin-top: 20px;
+    }
+  }
+  
 
 
 
