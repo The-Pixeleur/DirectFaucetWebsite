@@ -572,6 +572,7 @@ button:hover {
 
 
 
+
 @media (max-width: 770px) {
   #wallet_address{
     font-size: 12px;
@@ -641,9 +642,5 @@ button:hover {
   thead tr th:nth-child(2) { display : none}
   tbody tr td:nth-child(4) { display : none}
   thead tr th:nth-child(4) { display : none}
-
-
-
-
 
 }
