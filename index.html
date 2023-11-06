@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="./CSS/Maincss.css">
 	<link href="./IMG/ServerDiscord/DCFlogo.png" rel="icon">
 	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-	<script src="./JS/index.js"></script>
+	
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LEXZ71K4Q7"></script>
@@ -22,6 +22,7 @@
   gtag('config', 'G-LEXZ71K4Q7');
 </script>
 <body>
+	
     <header >
 		<h1>Direct Crypto Faucet</h1>
 		<nav>
@@ -44,10 +45,13 @@
 	<div class="containermain">
 		<div class="project">
 			<p><p style="font-size: xx-large;">Direct Crypto Faucet</p><br>Home of the land of free crypto, list of all faucets direct to your own wallet, play on mobile to earn more and list of discord servers for your Tip.cc Bot wallet! <br><br>We are also working on a blockchain game named "Inside the hallway".</p>
-            <div class="cryptomain">
-				<img id="crypto-img" src="./IMG/CryptoLogo/ethereum.webp" alt="Crypto logo">
-				<h2 id="crypto-name">Ethereum</h2>
+			<div class="cryptomain">
+				<div class="crypto-container">
+					<img id="crypto-img" src="./IMG/CryptoLogo/ethereum.webp" alt="Crypto logo">
+					<h2 id="crypto-name">Ethereum</h2>
+				</div>
 			</div>
+
         </div>
 		<div class="imagemain">
 			<img id="imageindex" src="./IMG/Other/Mainimg.jpg" alt="Mainimg">
@@ -75,17 +79,56 @@
 				</div>
 			</a>
 		</div>
-    <div class="containermain">
-		<div class="additional-section"><br>
-			<div id="roadmap-left"><br>
-				<h2>RoadMap</h2>
-				<h3>2023 :</h3><p><br><br>-Website Creation<br>-Faucet list<br>-Discord server creation<br>-Play-to-earn<br>-Server discord to earn<br><br><br></p>
-			</div>
-			<div id="roadmap-right">
-				<h3>2024 :</h3><p><br><br>-Deploy NFT collections for Inside The Hallway<br>-NFT giveaway for Inside The hallway<br>-Alpha release of Inside The Hallway<br></p>
-			</div>
-		</div>
-	</div>
+		<style>@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');</style>
+		<!--This is the main container that contains the whole timeline.-->
+		<section class="design-section">
+			<div class="timeline">
+				<div class="timeline-empty"></div>
+				<div class="timeline-middle">
+					<div class="timeline-circle"></div>
+				</div>
+				<div class="timeline-component timeline-content">
+					<h3>2023</h3>
+					<br><br>
+					<ul>
+						<li>✅Website Creation</li>
+						<li>✅Faucet list</li>
+						<li>✅Discord server creation</li>
+						<li>✅Play-to-earn</li>
+						<li>✅Server discord to earn</li>
+					</ul>
+				</div>
+				<div class="timeline-component timeline-content">
+					<h3>2024</h3>
+					<br><br>
+					<ul>
+						<li>✅Merge DCF with Pixeleur</li>
+						<li>Deploy NFT collections for Inside The Hallway</li>
+						<li>NFT giveaway for Inside The hallway</li>
+						<li>Closed Alpha release of Inside The Hallway</li>
+					</ul>
+				</div>
+				<div class="timeline-current">
+					<div class="timeline-circle"></div>
+				</div>
+				<div class="timeline-empty"></div>
+				<div class="timeline-empty"></div>
+				<div class="timeline-not">
+					<div class="timeline-circle-not"></div>
+				</div>
+				<div class=" timeline-component timeline-content">
+					<h3>2025</h3>
+					<br><br>
+					<ul>
+						<li>Early Access & Open beta of Inside The Hallway</li>
+						<li>Dedicated server for the game</li>
+						<li>Add more token and NFT in game</li>
+					</ul>
+				</div>
+		
+			</div> 
+		</section>
+		  
 	<footer class="site-footer">
 		<div class="container">
 		  <div class="row">
@@ -113,5 +156,6 @@
 		  </div>
 		</div>
 	</footer>
+	<script src="./JS/index.js"></script>
 </body>
 </html>
