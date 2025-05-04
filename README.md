@@ -10,5 +10,3 @@ just past your address and receive some token :
   -14 different token 
 
 -------------------------------------------------------------------
-
-

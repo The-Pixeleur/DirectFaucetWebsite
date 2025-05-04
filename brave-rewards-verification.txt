@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
-Domain: directfaucet.site
+Domain: directfaucet.cc
 Token: 4b062a5e85bd5db4ac04c79bd3647e62e447b6a5efb2adbca5ac8e5faa8eea27
